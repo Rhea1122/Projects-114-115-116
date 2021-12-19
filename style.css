@@ -1,0 +1,21 @@
+#button_1:hover
+{ 
+    background-color: #996666; 
+    color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+body
+{
+    background-size: cover;
+}
+canvas 
+{ 
+    animation-name: example; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+} 
+@keyframes example 
+{ 
+   from{box-shadow: 1px 1px 38px peachpuff;}; 
+   to{box-shadow: 1px 1px 38px lightslategrey;}; 
+}
